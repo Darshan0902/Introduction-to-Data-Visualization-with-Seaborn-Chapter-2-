@@ -97,3 +97,5 @@ sns.relplot(x="G1", y="G3",
 plt.show()
 
 ```
+
+<h2> Create column subplots based on whether the student received support from the school ("schoolsup"), ordered so that "yes" comes before "no". </h2> 
