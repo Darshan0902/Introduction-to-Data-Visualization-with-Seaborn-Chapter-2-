@@ -219,5 +219,6 @@ plt.show()
 ```
 <h2> Plotting subgroups in line plots </h2> 
 
+Use relplot() and the mpg DataFrame to create a line plot with "model_year" on the x-axis and "horsepower" on the y-axis. Turn off the confidence intervals on the plot.
 
 
