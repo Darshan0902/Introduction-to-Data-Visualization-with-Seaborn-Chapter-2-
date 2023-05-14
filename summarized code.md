@@ -65,3 +65,18 @@ OUTPUT :
 
 
 
+<h2> Creating two-factor subplots </h2> 
+
+Use relplot() to create a scatter plot with "G1" on the x-axis and "G3" on the y-axis, using the student_data DataFrame.
+
+```
+
+# Adjust to add subplots based on school support
+sns.relplot(x="G1", y="G3", 
+            data=student_data,
+            kind="scatter",col )
+
+# Show plot
+plt.show()
+
+```
