@@ -42,8 +42,26 @@ sns.relplot(x="absences", y="G3",
 plt.show()
  
  ```
- 
+ OUTPUT :
  ![image](https://github.com/Darshan0902/Visualizing-Two-Quantitative-Variables/assets/77969007/0c033865-9c6d-4d02-b51f-aba31056e495)
+
+
+<h2> In Vertical format and arranging plot in rows instead of columns : </h2> :
+
+```
+# Change this scatter plot to arrange the plots in rows instead of columns
+sns.relplot(x="absences", y="G3", 
+            data=student_data,
+            kind="scatter", 
+            row="study_time")
+
+# Show plot
+plt.show()
+
+```
+
+OUTPUT : 
+![image](https://github.com/Darshan0902/Visualizing-Two-Quantitative-Variables/assets/77969007/8b27e26b-ca84-4e02-82dc-73efa6487a0f)
 
 
 
