@@ -256,3 +256,5 @@ plt.show()
 
 ```
 
+<br> Add markers for each data point to the lines.
+<br >Use the dashes parameter to use solid lines for all countries, while still allowing for different marker styles for each line.
