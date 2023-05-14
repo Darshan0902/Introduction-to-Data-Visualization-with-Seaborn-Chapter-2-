@@ -16,4 +16,34 @@ student_data = pd.read_csv('datasets/student-alcohol-consumption.csv', index_col
 survey = pd.read_csv('datasets/young-people-survey-responses.csv', index_col=0)
   
  ```
+ 
+ 
+ <h2> **Creating subplots with col and row </h2> 
+ 
+ 
+ INSTRUCTIONS : 
+ 
+<br> Modify the code to use relplot() instead of scatterplot()
+<br> Modify the code to create one scatter plot for each level of the variable "study_time", arranged in columns.
+<br> Adapt your code to create one scatter plot for each level of a student's weekly study time, this time arranged in rows.
   
+ CODE : 
+ 
+ 
+ ```
+ 
+ # Change this scatter plot to arrange the plots in rows instead of columns
+sns.relplot(x="absences", y="G3", 
+            data=student_data,
+            kind="scatter", 
+            col="study_time")
+
+# Show plot
+plt.show()
+ 
+ ```
+ 
+ ![image](https://github.com/Darshan0902/Visualizing-Two-Quantitative-Variables/assets/77969007/0c033865-9c6d-4d02-b51f-aba31056e495)
+
+
+
